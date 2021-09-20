@@ -57,7 +57,7 @@ const students = [
 ];
 
 const studentWithIds1 = students.map(i => [i.name, i.id]);
-console.log(studentWithIds1)
+console.log('array in an array', studentWithIds1)
 
 const studentWithIds = students.map(i => ({name: i.name, id: i.id}));
-console.log(studentWithIds)
+console.log('object in array', studentWithIds)
